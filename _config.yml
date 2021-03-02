@@ -1,0 +1,89 @@
+baseurl: null
+url: 'https://htdphuc.github.io'
+date_format: ordinal
+title: Phuc Hoang
+subtitle: Phuc Hoang
+description: Phuc Hoang
+keywords: 'Phuc Hoang, htdphuc, htdphuc'
+timezone: Asia/Ho_Chi_Minh
+encoding: UTF-8
+side_bar_repo_limit: 5
+author: htdphuc
+organization: null
+organization_url: null
+github_username: htdphuc
+location: 'HCM, Vietnam'
+email: www.htdphuc@gmail.com
+
+navs:
+  - href: /
+    label: Home
+  - href: /categories/
+    label: Categories
+  - href: /wiki/
+    label: Wiki
+  - href: /tools/
+    label: Tools
+  - href: /open-source/
+    label: Open-source
+  - href: /about/
+    label: About
+    
+subscribe_rss: /feed.xml
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: |+
+permalink: '/:year/:month/:day/:title/'
+
+plugins:
+  - jekyll-github-metadata
+  - rouge
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+  
+collections:
+  wiki:
+    output: true
+    permalink: '/wiki/:path/'
+  tools:
+    output: true
+    permalink: '/tools/:path/'
+    
+repository: htdphuc
+comments_provider: gitalk
+
+disqus:
+  username: disqus_2fTSrpS4ME
+  
+gitment:
+  owner: htdphuc
+  repo: htdphuc.github.io
+  oauth:
+    client_id: 3ef5e14b3792fb7f8760
+    client_secret: 291604fe977edca23ef0c3706faed10ba4bb48ac
+    
+gitalk:
+  owner: htdphuc
+  repo: htdphuc.github.io
+  clientID: 3ef5e14b3792fb7f8760
+  clientSecret: 291604fe977edca23ef0c3706faed10ba4bb48ac
+  proxy: https://cors-corona.herokuapp.com/https://github.com/login/oauth/access_token
+  
+lazy_load_disqus: false
+simple_jekyll_search:
+  fulltext: false
+  limit: 15
+  
+google:
+  analytics_id: UA-153150119-1
+
+github: [metadata]
