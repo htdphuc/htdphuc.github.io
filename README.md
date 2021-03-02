@@ -1,4 +1,4 @@
-Loc Nguyen's Blog
+Phuc's Blog
 =========
 
 https://htdphuc.github.io
